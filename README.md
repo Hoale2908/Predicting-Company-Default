@@ -1,7 +1,7 @@
 # Predicting Company Default
-Construction of a classification model to predict the probability of default for a company based on various financial ratios.
+This model predicts a company's probability of default given its fundamental financial information.
 
-Dataset includes historical data on corporate financial ratios and default events for public companies over the 1995-2004 period.
+The model is trained with historical financial ratios and default events of public companies over the 1995-2004 period.
 
 **Definition:**
 * WC2TA: Working capital/Total assets
