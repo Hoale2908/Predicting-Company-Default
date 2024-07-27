@@ -6,4 +6,4 @@ In summary, the author developed and validated some models using Linear Regressi
 
 Details of work can be seen here: [Predicting Company Default][Notebook] 
 
-[Notebook]: [https://github.com/Hoale2908/Predicting-Company-Default/blob/main/Predicting_Company_Default.ipynb]
+[Notebook]: https://github.com/Hoale2908/Predicting-Company-Default/blob/main/Predicting_Company_Default.ipynb
