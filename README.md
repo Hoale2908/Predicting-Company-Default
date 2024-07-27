@@ -1,11 +1,9 @@
 # Predicting Company Default
-This model predicts a company's probability of default given its fundamental financial information.
-Data includes historical financial ratios and default events of public companies over the 1995-2004 period.
+This model predicts whether companies will default given based on their fundamental financial information.
+The data used for training includes historical financial ratios and default events of public companies over the 1995-2004 period.
 
-**Definition:**
-* WC2TA: Working capital/Total assets
-* RE2TA: Retained earning/Total assets
-* EBIT2TA: EBIT/Total Assets
-* ME2TL: Market Equity/Total Liabilities
-* S2TA: Sales/Total assets
-* Default: 1 for defaut events, 0 for non-default events
+In summary, the author developed and validated some models using Linear Regression and Gradient Boosting technique. AUC-ROC and accuracy were used to evaluate model performance. Accordingly, a Gradient Boosted Tree model trained on oversampled data was chosen as the best one overall. 
+
+Details of work can be seen here: [Predicting Company Default][Notebook] 
+
+[Notebook]: [https://github.com/Hoale2908/Predicting-Company-Default/blob/main/Predicting_Company_Default.ipynb]
